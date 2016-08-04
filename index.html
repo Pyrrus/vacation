@@ -57,20 +57,68 @@
       <div class="col-md-4">
         <h2>About the Hearst Castle</h2>
         <p>Click here to learn more about the Hearst Castle.</p>
-        <a class="btn btn-primary">The Castle</a>
+        <a class="btn btn-primary" data-toggle="modal" data-target="#castleModal">The Castle</a>
       </div>
       <div class="col-md-4">
         <h2>William Randolph Hearst</h2>
         <p>Click here to learn more about the owner.</p>
-        <a class="btn btn-primary">The Owner</a>
+        <a class="btn btn-primary" data-toggle="modal" data-target="#ownerModal">The Owner</a>
       </div>
       <div class="col-md-4">
         <h2>Visit</h2>
         <p>Click here for more information about visiting.</p>
-        <a class="btn btn-primary">Visit Us</a>
+        <a class="btn btn-primary" data-toggle="modal" data-target="#visitModal">Visit Us</a>
       </div>
     </div>
   </div>
+
+  <div class="modal fade" id="castleModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">About the Hearst Castle</h4>
+      </div>
+      <div class="modal-body">
+        <p>The castle was first build by a female architect. It is full of many extravagant artifacts from across the globe.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="ownerModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <h4 class="modal-title" id="myModalLabel">About the owner</h4>
+    </div>
+    <div class="modal-body">
+      <p>The castle was built by William Randolph Hearst. He made about $20,000/day, in his time. He funneled that money into many castles like this one.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="visitModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <h4 class="modal-title" id="myModalLabel">Visit Us</h4>
+    </div>
+    <div class="modal-body">
+      <p>For more information about visiting the castle, call us at 555-555-5555.</p>
+    </div>
+  </div>
+</div>
+</div>
 
 
 
