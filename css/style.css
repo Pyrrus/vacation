@@ -1,0 +1,9 @@
+img {
+  width: 500px;
+  height: auto;
+  padding-left: 10px;
+}
+
+.carousel-caption p {
+  color: black;
+}
